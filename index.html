@@ -54,9 +54,13 @@
             // <p>I started out as a GeoJSON ${feature.geometry.type}, but now I'm a Leaflet vector!</p>
             let popupContent = `
                 <h3>${feature.properties.judul}</h3>
-                <div class="pmudara">PM ${pm}</div>
-                <div>${val} (${ket})</div>
-                <div>${dki}</div>
+                <div class="dki">${dki}</div>
+                <div class="bungkus">
+                    <div class="d-block text-center">
+                        <div class="pmudara">${val}</div><div class="red-small">(${ket})</div>
+                    </div>
+                    <div class="kotak">PM ${pm}</div>
+                </div>
                 
             `;
 			// popupContent += feature.properties.judul;

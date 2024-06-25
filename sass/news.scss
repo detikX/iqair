@@ -17,23 +17,52 @@ body {
     }
 }
 
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+}
 .leaflet-popup {
     div {
     }
     h3 {
         // text-align: center;
-        font-size: 1rem;
+        text-align: center;
+        font-size: 1.2rem;
 
-        margin-bottom: 8px;
+        margin-bottom: 0px;
     }
-    p {
-        font-size: 0.8rem;
-        color: #343434;
-        font-family: "Rubik";
+    .kotak {
+        background: white;
+        width: fit-content;
+        padding: 4px 8px;
+        text-align: center;
+        margin: 4px auto;
+        border-radius: 8px;
+        font-size: 1rem;
+    }
+    .red-small {
+        display: inline-block;
+    }
+    .text-center {
+        text-align: center;
+    }
+    .bungkus {
+        // color: #8c6c1d;
+
+        color: #942431;
+        border-radius: 8px;
+        background: #fe6a69;
+        // background: #fdd64b;
+        padding: 8px;
+    }
+
+    .dki {
+        text-align: center;
+        margin-bottom: 4px;
     }
     .pmudara {
-        color: #343434;
-        // font-size: 1.2rem;
+        // color: #343434;
+        display: inline-block;
+        font-size: 1.2rem;
         font-weight: bold;
     }
 }
