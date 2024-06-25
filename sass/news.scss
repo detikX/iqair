@@ -21,7 +21,7 @@ body {
 .leaflet-popup-tip {
 }
 .leaflet-popup {
-    font-family: "Rubik", sans-serif;
+    font-family: "Rubik", sans-serif !important;
     .wrapperx {
         display: block;
         .inline-left {
@@ -40,6 +40,7 @@ body {
     h3 {
         // text-align: center;
         text-align: center;
+        font-family: "Rubik", sans-serif !important;
         margin-top: 0;
         font-size: 1rem;
 
@@ -50,6 +51,7 @@ body {
         width: fit-content;
         padding: 4px 8px;
         text-align: center;
+        font-family: "Rubik", sans-serif !important;
         margin: 4px auto;
         border-radius: 8px;
         font-size: 1rem;
@@ -62,7 +64,7 @@ body {
     }
     .bungkus {
         color: #000;
-
+        font-family: "Rubik", sans-serif !important;
         // color: #942431;
         border-radius: 8px;
         // background: #fe6a69;
@@ -72,11 +74,13 @@ body {
 
     .dki {
         text-align: center;
+        font-family: "Rubik", sans-serif !important;
         margin-bottom: 4px;
     }
     .pmudara {
         // color: #343434;
         display: inline-block;
+        font-family: "Rubik", sans-serif !important;
         font-size: 1.2rem;
         font-weight: bold;
     }
