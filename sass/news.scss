@@ -9,6 +9,10 @@ body {
 .cek {
     font-family: "Rubik" !important;
     margin-bottom: 4px;
+    @media screen and (max-width: 768px) {
+        width: 85%;
+        margin: 16px auto 8px;
+    }
 }
 .leaflet-container {
     height: 600px;
@@ -91,10 +95,13 @@ body {
     }
 }
 
-.detail-sumber .datax {
-    font-size: 14px;
-    font-family: "Rubik" !important;
-    margin-bottom: 8px;
+.detail-sumber {
+    margin-bottom: 16px;
+    .datax {
+        font-size: 14px;
+        font-family: "Rubik" !important;
+        // margin-bottom: 8px;
+    }
 }
 
 .text-center {
