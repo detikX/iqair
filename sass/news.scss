@@ -100,6 +100,9 @@ body {
     .datax {
         font-size: 14px;
         font-family: "Rubik" !important;
+        @media screen and (max-width: 768px) {
+            font-size: 12px;
+        }
         // margin-bottom: 8px;
     }
 }
