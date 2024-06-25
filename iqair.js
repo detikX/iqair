@@ -39,6 +39,18 @@ var bicycleRental = {
       },
     },
 
+
+
+
+
+
+  ],
+};
+
+var jagakarsa = {
+
+  features: [
+
     {
       type: "Feature",
       geometry: {
@@ -50,40 +62,13 @@ var bicycleRental = {
         longitude: "-6.192137",
         latitude: "106.770446",
         dki: "DKI 5",
-        val: "85",
-        ket: "Sedang",
-        pm: "2,5",
-        warna_sektor: "#00ff00",
-        short_narasi: "<b>Narasi:</b><br>",
-      },
-    },
-
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [106.818349, -6.336509],
-      },
-      properties: {
-        judul: "Jagakarsa",
-        longitude: " -6.336509",
-        latitude: "106.818349",
-        dki: "DKI 3",
-        val: "101",
+        val: "103",
         ket: "Tidak Sehat",
         pm: "2,5",
         warna_sektor: "#00ff00",
         short_narasi: "<b>Narasi:</b><br>",
       },
     },
-
-
-  ],
-};
-
-var jagakarsa = {
-
-  features: [
 
 
     {
